@@ -1,9 +1,9 @@
 uint8_t TOUCH_PIN   = 28;
 uint8_t LED_PIN     = 24;
 
-uint8_t touched   = 0;
-uint8_t ledOn     = 0;
-bool newTouch     = 1;
+uint8_t touched     = 0;
+uint8_t ledOn       = 0;
+uint8_t newTouch    = 1;
 
 void setup() {
   Serial.begin(9600);
